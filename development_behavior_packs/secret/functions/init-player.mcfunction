@@ -1,6 +1,9 @@
 # Tag the player so this only runs once
 tag @s add init
 
+# Bugfix/hack - Make sure all scoreboards are setup
+function init-world
+
 # 30 Hearts
 effect @s health_boost 1000000 9 true
 effect @s instant_health 1 9 true
