@@ -9,10 +9,8 @@ effect @s instant_health 1 9 true
 #team join green @s
 
 # Init scoreboard(s)
-scoreboard players set @s session1 0
-scoreboard players set @s session2 0
-scoreboard players set @s session3 0
-scoreboard players set @s timer 0
+scoreboard players set @s deaths 0
+scoreboard players set @s health 60
 scoreboard players set @s s1fail 0
 scoreboard players set @s s1reroll 0
 scoreboard players set @s s1success 0
@@ -22,6 +20,10 @@ scoreboard players set @s s2success 0
 scoreboard players set @s s3fail 0
 scoreboard players set @s s3reroll 0
 scoreboard players set @s s3success 0
+scoreboard players set @s session1 0
+scoreboard players set @s session2 0
+scoreboard players set @s session3 0
+scoreboard players set @s timer 0
 
 # Give the player the starting item
 #give @s written_book{display:{Name:'{"text":"Start Session 1"}',Lore:['{"text":"Start Session 1"}']},title:"Start Session 1",author:"Kirbycope",generation:0,pages:['{"text":"Start Session 1","clickEvent":{"action":"run_command","value":"/trigger session1 add 1"}}']}
