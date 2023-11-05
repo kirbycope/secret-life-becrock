@@ -1,5 +1,5 @@
 execute as @s[scores={timer=0},tag=reward] run scoreboard players set @s timer 1
-execute as @s[scores={timer=1..30}] run particle minecraft:glow_particle 0 1 0 1 -423 70 -406 0.1 0.1 0.1 0.5 8 normal
+execute as @s[scores={timer=1..30}] run particle minecraft:glow_particle 0 1 0 1 -423 70 -406
 
 # Player has 30+ hearts
 #execute as @s[scores={timer=5,health=60..}] run summon minecraft:item -423 70 -406 {Item:{id:"minecraft:ancient_debris",Count:1b}}
