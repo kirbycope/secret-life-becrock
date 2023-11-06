@@ -1,5 +1,5 @@
 #clear @s written_book{title:"Start Session 1"}
-#execute store result score @s secret run random roll 0..16
+scoreboard players random @s secret 0 16
 execute at @s[scores={secret=0}] run structure load s101 ~ ~ ~
 execute at @s[scores={secret=1}] run structure load s102 ~ ~ ~
 execute at @s[scores={secret=2}] run structure load s103 ~ ~ ~
