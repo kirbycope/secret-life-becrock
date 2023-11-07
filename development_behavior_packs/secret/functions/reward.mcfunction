@@ -72,29 +72,29 @@ execute as @s[scores={timer=50},tag=20hearts] run structure load lib -423 70 -40
 execute as @s[scores={timer=50},tag=20hearts] run playsound random.pop @a -423 70 -406
 
 # Give Hearts
-execute as @s[scores={timer=60,health=..23},tag=20hearts] run title @s title "§a+20 Hearts"
+execute as @s[scores={timer=60,health=..23},tag=20hearts] run title @s title §a+20 Hearts
 execute as @s[scores={timer=60,health=20..23},tag=20hearts] run effect @s instant_health 10 0 true
-execute as @s[scores={timer=60,health=20..27},tag=20hearts] run title @s title "§a+18 Hearts"
+execute as @s[scores={timer=60,health=20..27},tag=20hearts] run title @s title §a+18 Hearts
 execute as @s[scores={timer=60,health=24..27},tag=20hearts] run effect @s instant_health 9 0 true
-execute as @s[scores={timer=60,health=28..31},tag=20hearts] run title @s title "§a+16 Hearts"
+execute as @s[scores={timer=60,health=28..31},tag=20hearts] run title @s title §a+16 Hearts
 execute as @s[scores={timer=60,health=28..31},tag=20hearts] run effect @s instant_health 8 0 true
-execute as @s[scores={timer=60,health=32..35},tag=20hearts] run title @s title "§a+14 Hearts"
+execute as @s[scores={timer=60,health=32..35},tag=20hearts] run title @s title §a+14 Hearts
 execute as @s[scores={timer=60,health=32..35},tag=20hearts] run effect @s instant_health 7 0 true
-execute as @s[scores={timer=60,health=36..39},tag=20hearts] run title @s title "§a+12 Hearts"
+execute as @s[scores={timer=60,health=36..39},tag=20hearts] run title @s title §a+12 Hearts
 execute as @s[scores={timer=60,health=36..39},tag=20hearts] run effect @s instant_health 6 0 true
-execute as @s[scores={timer=60,health=..43}] run title @s title "§a+10 Hearts"
+execute as @s[scores={timer=60,health=..43}] run title @s title §a+10 Hearts
 execute as @s[scores={timer=60,health=..43}] run effect @s instant_health 5 0 true
-execute as @s[scores={timer=60,health=44..47}] run title @s title "§a+8 Hearts"
+execute as @s[scores={timer=60,health=44..47}] run title @s title §a+8 Hearts
 execute as @s[scores={timer=60,health=44..47}] run effect @s instant_health 4 0 true
-execute as @s[scores={timer=60,health=48..51}] run title @s title "§a+6 Hearts"
+execute as @s[scores={timer=60,health=48..51}] run title @s title §a+6 Hearts
 execute as @s[scores={timer=60,health=48..51}] run effect @s instant_health 3 0 true
-execute as @s[scores={timer=60,health=52..55}] run title @s title "§a+4 Hearts"
+execute as @s[scores={timer=60,health=52..55}] run title @s title §a+4 Hearts
 execute as @s[scores={timer=60,health=52..55}] run effect @s instant_health 2 0 true
-execute as @s[scores={timer=60,health=56..59}] run title @s title "§a+2 Hearts"
+execute as @s[scores={timer=60,health=56..59}] run title @s title §a+2 Hearts
 execute as @s[scores={timer=60,health=56..59}] run effect @s instant_health 1 0 true
 
 # Temp heatlh hack
-execute as @s[scores={timer=60,health=60}] run title @s title "§a+10 Hearts"
+execute as @s[scores={timer=60,health=60}] run title @s title §a+10 Hearts
 execute as @s[scores={timer=60,health=60}] run effect @s instant_health 5 0 true
 execute as @s[scores={timer=60}] run tag @s remove reward
 execute as @s[scores={timer=60}] run tag @s remove 10hearts
