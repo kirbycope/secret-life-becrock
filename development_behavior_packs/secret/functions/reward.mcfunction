@@ -51,7 +51,7 @@ execute as @s[scores={timer=35},tag=20hearts] run structure load lpi ~ ~ ~
 execute as @s[scores={timer=35},tag=20hearts] run playsound random.pop @a -423 70 -406
 
 # Player has 23 hearts
-#execute as @s[scores={timer=40,health=46..}] run structure load lbf ~ ~ ~
+execute as @s[scores={timer=40,health=46..}] run structure load lbf ~ ~ ~
 execute as @s[scores={timer=40,health=46..}] run playsound random.pop @a -423 70 -406
 # and/or Player Rerolled
 execute as @s[scores={timer=40},tag=20hearts] run structure load lbf ~ ~ ~
