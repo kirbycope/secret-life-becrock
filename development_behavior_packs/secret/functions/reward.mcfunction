@@ -93,6 +93,9 @@ execute as @s[scores={timer=60,health=52..55}] run effect @s instant_health 2 0 
 execute as @s[scores={timer=60,health=56..59}] run title @s title "§a+2 Hearts"
 execute as @s[scores={timer=60,health=56..59}] run effect @s instant_health 1 0 true
 
+# Temp heatlh hack
+execute as @s[scores={timer=60,health=60}] run title @s title "§a+10 Hearts"
+execute as @s[scores={timer=60,health=60}] run effect @s instant_health 5 0 true
 execute as @s[scores={timer=60}] run tag @s remove reward
 execute as @s[scores={timer=60}] run tag @s remove 10hearts
 execute as @s[scores={timer=60}] run tag @s remove 20hearts
