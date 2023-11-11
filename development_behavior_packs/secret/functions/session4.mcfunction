@@ -1,4 +1,4 @@
-# clear @s written_book{title:"Start Session 3"}
+# clear @s written_book{title:"Start Session 4"}
 scoreboard players random @s secret 0 16
 execute at @s[scores={secret=0}] run structure load s401 ~ ~ ~
 execute at @s[scores={secret=1}] run structure load s402 ~ ~ ~
@@ -17,4 +17,4 @@ execute at @s[scores={secret=13}] run structure load s414 ~ ~ ~
 execute at @s[scores={secret=14}] run structure load s415 ~ ~ ~
 execute at @s[scores={secret=15}] run structure load s416 ~ ~ ~
 execute at @s[scores={secret=16}] run structure load s417 ~ ~ ~
-tag @s add session3
+tag @s add session4
