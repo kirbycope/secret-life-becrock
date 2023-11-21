@@ -4,7 +4,6 @@ execute as @a[tag=!init] run function init-player
 # Alive?
 scoreboard players set @a[scores={alive=!2}] alive 0
 scoreboard players set @e[type=player] alive 1
-execute as @a[scores={alive=0}] run say I died
 execute as @a[scores={alive=0}] run scoreboard players add @s deaths 1
 scoreboard players set @a[scores={alive=0}] alive 2
 
