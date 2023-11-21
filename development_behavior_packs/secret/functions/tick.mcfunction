@@ -1,6 +1,13 @@
 # Initialize new players
 execute as @a[tag=!init] run function init-player
 
+# Alive?
+scoreboard players set @a[scores={alive=!2}] alive 0
+scoreboard players set @e[type=player] alive 1
+execute as @a[scores={alive=0}] run say I died
+execute as @a[scores={alive=0}] run scoreboard players add @s deaths 1
+scoreboard players set @a[scores={alive=0}] alive 2
+
 # Teams
 execute as @e[scores={deaths=0}] run tag @s add green
 execute as @e[scores={deaths=1},tag=!death1] run function yellow
@@ -13,12 +20,6 @@ execute as @e[scores={session2=1},tag=!session2] run tag @s add countdown
 execute as @e[scores={session3=1},tag=!session3] run tag @s add countdown
 execute as @e[scores={session4=1},tag=!session4] run tag @s add countdown
 execute as @e[scores={session5=1},tag=!session5] run tag @s add countdown
-
-# Alive?
-scoreboard players set @a[scores={alive=!2}] alive 0
-scoreboard players set @e[type=player] alive 1
-execute as @a[scores={alive=0}] run say I died
-scoreboard players set @a[scores={alive=0}] alive 2
 
 # Countdown
 execute as @e[tag=countdown] run function countdown
