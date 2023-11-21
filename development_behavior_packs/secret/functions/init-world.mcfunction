@@ -24,11 +24,16 @@ scoreboard objectives add s4fail dummy
 scoreboard objectives add s4gift dummy
 scoreboard objectives add s4reroll dummy
 scoreboard objectives add s4success dummy
+scoreboard objectives add s5fail dummy
+scoreboard objectives add s5gift dummy
+scoreboard objectives add s5reroll dummy
+scoreboard objectives add s5success dummy
 scoreboard objectives add secret dummy
 scoreboard objectives add session1 dummy
 scoreboard objectives add session2 dummy
 scoreboard objectives add session3 dummy
 scoreboard objectives add session4 dummy
+scoreboard objectives add session5 dummy
 scoreboard objectives add timer dummy
 
 # Teams
