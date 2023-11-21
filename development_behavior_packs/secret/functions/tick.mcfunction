@@ -14,6 +14,12 @@ execute as @e[scores={session3=1},tag=!session3] run tag @s add countdown
 execute as @e[scores={session4=1},tag=!session4] run tag @s add countdown
 execute as @e[scores={session5=1},tag=!session5] run tag @s add countdown
 
+# Alive?
+scoreboard players set @a[scores={alive=!2}] alive 0
+scoreboard players set @e[type=player] alive 1
+execute as @a[scores={alive=0}] run say I died
+scoreboard players set @a[scores={alive=0}] alive 2
+
 # Countdown
 execute as @e[tag=countdown] run function countdown
 

@@ -6,6 +6,7 @@ gamerule naturalregeneration false
 #worldborder set 750 0
 
 # Scoreboard(s)
+scoreboard objectives add alive dummy
 scoreboard objectives add deaths dummy
 scoreboard objectives add health dummy
 scoreboard objectives add s1fail dummy
