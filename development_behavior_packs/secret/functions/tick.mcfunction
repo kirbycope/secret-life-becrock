@@ -20,6 +20,10 @@ execute as @e[scores={session3=1},tag=!session3] run tag @s add countdown
 execute as @e[scores={session4=1},tag=!session4] run tag @s add countdown
 execute as @e[scores={session5=1},tag=!session5] run tag @s add countdown
 
+# Spawn protection
+execute positioned -422 66 -406 run gamemode adventure @a[rm=0,r=20]
+execute positioned -422 66 -406 run gamemode survival @a[rm=21]
+
 # Countdown
 execute as @e[tag=countdown] run function countdown
 
