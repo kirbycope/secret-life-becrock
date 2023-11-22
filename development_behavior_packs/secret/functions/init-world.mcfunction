@@ -1,5 +1,6 @@
 gamerule commandblockoutput false
 gamerule naturalregeneration false 
+gamerule sendcommandfeedback false
 
 # World border centered around spawn
 #worldborder center -423 -406
