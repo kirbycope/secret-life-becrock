@@ -39,6 +39,7 @@ scoreboard objectives add session5 dummy
 scoreboard objectives add timer dummy
 
 # Teams
+scoreboard objectives setdisplay belowname deaths
 #team add green
 #team modify green color green
 #team modify green friendlyFire false
