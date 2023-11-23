@@ -5,8 +5,8 @@ tag @s add init
 function init-world
 
 # 30 Hearts
-effect @s health_boost 1000000 9 true
-effect @s instant_health 1 9 true
+#effect @s health_boost 1000000 9 true
+#effect @s instant_health 1 9 true
 
 # Team green (0 deaths)
 #team join green @s

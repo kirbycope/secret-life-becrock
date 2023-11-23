@@ -1,6 +1,6 @@
 # 30 Hearts
-effect @s health_boost 1000000 9 true
-effect @s instant_health 1 9 true
+#effect @s health_boost 1000000 9 true
+#effect @s instant_health 1 9 true
 
 # Team red (1 deaths)
 #team join red @s
