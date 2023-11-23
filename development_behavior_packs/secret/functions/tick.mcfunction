@@ -30,8 +30,10 @@ execute as @e[tag=countdown] run function countdown
 # Fail
 execute as @e[tag=fail] run function fail
 
-# Hearts
-#execute as @a run function hearts
+# Give hearts
+execute as @e[tag=gift] run function give
+
+# Set max hearts (now handled in `player.json`)
 
 # Reroll
 execute as @e[tag=reroll] run function reroll
