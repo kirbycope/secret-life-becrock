@@ -1,4 +1,4 @@
-# clear @s written_book{title:"Start Session 6"}
+#clear @s written_book{title:"Start Session 6"}
 scoreboard players random @s secret 0 14
 execute at @s[scores={secret=0}] run structure load s601 ~ ~ ~
 execute at @s[scores={secret=1}] run structure load s602 ~ ~ ~
