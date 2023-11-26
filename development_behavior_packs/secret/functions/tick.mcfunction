@@ -13,12 +13,16 @@ execute as @e[scores={deaths=1},tag=!death1] run function yellow
 execute as @e[scores={deaths=2},tag=!death2] run function red
 execute as @a[scores={deaths=3..}] run gamemode spectator @s
 
+# Red Tasks
+execute as @e[scores={deaths=2},tag=!redtask] run tag @s add countdown
+
 # Trigger Session
 execute as @e[scores={session1=1},tag=!session1] run tag @s add countdown
 execute as @e[scores={session2=1},tag=!session2] run tag @s add countdown
 execute as @e[scores={session3=1},tag=!session3] run tag @s add countdown
 execute as @e[scores={session4=1},tag=!session4] run tag @s add countdown
 execute as @e[scores={session5=1},tag=!session5] run tag @s add countdown
+execute as @e[scores={session6=1},tag=!session6] run tag @s add countdown
 
 # Spawn protection
 execute positioned -422 66 -406 run gamemode adventure @a[rm=0,r=20,scores={deaths=..2}]
