@@ -2,32 +2,32 @@ execute as @s[scores={timer=0},tag=reward] run scoreboard players set @s timer 1
 execute as @s[scores={timer=1..30}] run particle minecraft:sculk_sensor_redstone_particle -423 70 -406
 
 # Player has 30+ hearts
-execute as @s[scores={timer=5,health=60..},tag=5hearts] run structure load lad -423 70 -406
+execute as @s[scores={timer=5,health=60..},tag=5hearts] run structure load lec -423 70 -406
 execute as @s[scores={timer=5,health=60..},tag=10hearts] run structure load lad -423 70 -406
-execute as @s[scores={timer=5,health=60..},tag=20hearts] run structure load lad -423 70 -406
+execute as @s[scores={timer=5,health=60..},tag=20hearts] run structure load lns -423 70 -406
 execute as @s[scores={timer=5,health=60..}] run playsound random.pop @a -423 70 -406
 
 # Player has 29+ hearts
-execute as @s[scores={timer=10,health=58..},tag=5hearts] run structure load lgb -423 70 -406
-execute as @s[scores={timer=10,health=58..},tag=10hearts] run structure load lgb -423 70 -406
-execute as @s[scores={timer=10,health=58..},tag=20hearts] run structure load lgb -423 70 -406
+execute as @s[scores={timer=10,health=58..},tag=5hearts] run structure load ltn -423 70 -406
+execute as @s[scores={timer=10,health=58..},tag=10hearts] run structure load ldi -423 70 -406
+execute as @s[scores={timer=10,health=58..},tag=20hearts] run structure load ldb -423 70 -406
 execute as @s[scores={timer=10,health=58..}] run playsound random.pop @a -423 70 -406
 
 # Player has 28+ hearts
 execute as @s[scores={timer=15,health=56..},tag=5hearts] run structure load lpi -423 70 -406
 execute as @s[scores={timer=15,health=56..},tag=10hearts] run structure load lpi -423 70 -406
-execute as @s[scores={timer=15,health=56..},tag=20hearts] run structure load lpi -423 70 -406
+execute as @s[scores={timer=15,health=56..},tag=20hearts] run structure load lpl -423 70 -406
 execute as @s[scores={timer=15,health=56..}] run playsound random.pop @a -423 70 -406
 
 # Player has 27+ hearts
-execute as @s[scores={timer=20,health=54..},tag=5hearts] run structure load lgb -423 70 -406
-execute as @s[scores={timer=20,health=54..},tag=10hearts] run structure load lgb -423 70 -406
-execute as @s[scores={timer=20,health=54..},tag=20hearts] run structure load lgb -423 70 -406
+execute as @s[scores={timer=20,health=54..},tag=5hearts] run structure load lgc -423 70 -406
+execute as @s[scores={timer=20,health=54..},tag=10hearts] run structure load lga -423 70 -406
+execute as @s[scores={timer=20,health=54..},tag=20hearts] run structure load leg -423 70 -406
 execute as @s[scores={timer=20,health=54..},tag=20hearts] run playsound random.pop @a -423 70 -406
 
 # Player has 26+ hearts
-execute as @s[scores={timer=25,health=52..},tag=5hearts] run structure load lbf -423 70 -406
-execute as @s[scores={timer=25,health=52..},tag=10hearts] run structure load lbf -423 70 -406
+execute as @s[scores={timer=25,health=52..},tag=5hearts] run structure load lbp -423 70 -406
+execute as @s[scores={timer=25,health=52..},tag=10hearts] run structure load lff -423 70 -406
 execute as @s[scores={timer=25,health=52..},tag=20hearts] run structure load lbf -423 70 -406
 execute as @s[scores={timer=25,health=52..}] run playsound random.pop @a -423 70 -406
 
@@ -37,23 +37,23 @@ execute as @s[scores={timer=30,health=50..},tag=20hearts] run structure load lad
 execute as @s[scores={timer=30,health=50..},tag=!5hearts] run playsound random.pop @a -423 70 -406
 
 # Player has 24+ hearts
-execute as @s[scores={timer=35,health=48..},tag=10hearts] run structure load lpi -423 70 -406
-execute as @s[scores={timer=35,health=48..},tag=20hearts] run structure load lpi -423 70 -406
+execute as @s[scores={timer=35,health=48..},tag=10hearts] run structure load lii -423 70 -406
+execute as @s[scores={timer=35,health=48..},tag=20hearts] run structure load lib -423 70 -406
 execute as @s[scores={timer=30,health=48..},tag=!5hearts] run playsound random.pop @a -423 70 -406
 
 # Player has 23+ hearts
-execute as @s[scores={timer=40,health=46..},tag=10hearts] run structure load lbf -423 70 -406
-execute as @s[scores={timer=40,health=46..},tag=20hearts] run structure load lbf -423 70 -406
+execute as @s[scores={timer=40,health=46..},tag=10hearts] run structure load lze -423 70 -406
+execute as @s[scores={timer=40,health=46..},tag=20hearts] run structure load lse -423 70 -406
 execute as @s[scores={timer=40,health=46..},tag=!5hearts] run playsound random.pop @a -423 70 -406
 
 # Player has 22+ hearts
-execute as @s[scores={timer=45,health=44..},tag=10hearts] run structure load lga -423 70 -406
-execute as @s[scores={timer=45,health=44..},tag=20hearts] run structure load lga -423 70 -406
+execute as @s[scores={timer=45,health=44..},tag=10hearts] run structure load lll -423 70 -406
+execute as @s[scores={timer=45,health=44..},tag=20hearts] run structure load llb -423 70 -406
 execute as @s[scores={timer=45,health=44..},tag=!5hearts] run playsound random.pop @a -423 70 -406
 
 # Player has 21+ hearts
-execute as @s[scores={timer=50,health=42..},tag=10hearts] run structure load lib -423 70 -406
-execute as @s[scores={timer=50,health=42..},tag=20hearts] run structure load lib -423 70 -406
+execute as @s[scores={timer=50,health=42..},tag=10hearts] run structure load lih -423 70 -406
+execute as @s[scores={timer=50,health=42..},tag=20hearts] run structure load lgh -423 70 -406
 execute as @s[scores={timer=50,health=42..},tag=!5hearts] run playsound random.pop @a -423 70 -406
 
 # Increase max health, up to 10 more hearts (green/yelllow task)
