@@ -1,4 +1,4 @@
-#clear @s written_book{title:"Secret Task 5"}
+#clear @s written_book{title:"Secret Task 6"}
 scoreboard players random @s secret 0 1
 
 # Someone is going to get a wither, you must bring a warden to the surface. Make them do battle. You can work together to make this battle happen. The fight must take place in a central location.
